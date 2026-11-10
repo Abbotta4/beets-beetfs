@@ -3,7 +3,7 @@
 
 pkgname=beets-beetfs
 _pkgname=beetfs
-pkgver=0.9.2
+pkgver=0.10.1
 pkgrel=1
 pkgdesc='A beets plugin for mounting a FUSE filesystem of audio items'
 arch=(any)
@@ -17,7 +17,7 @@ source=(
   https://github.com/Abbotta4/beetfs/archive/refs/tags/v${pkgver}.tar.gz
 )
 
-sha256sums=('3dd284002b2590e78072b96ce5f3fb7754e3f995f1efa44a0a8010f5c0a62210')
+sha256sums=('429ea41722448d543d2215b4c4d524a97f780446361a4df6d5057675861f54be')
 
 package() {
   packagesDir="$(python -c 'import site; print(site.getsitepackages()[0])')"
